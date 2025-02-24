@@ -1,0 +1,28 @@
+#subtitle {
+  font-family: Impact, Charcoal, sans-serif;
+  position: fixed;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.7); /* blackish transparent background */
+  color: #fff; /* white text */
+  padding: 20px 30px;
+  font-size: 22px;
+  border-radius: 8px;
+  border: 2px solid royalblue; /* royal blue border */
+  max-width: 90%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-50%) translateY(20px);
+}
+
+
+
+
+
