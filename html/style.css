@@ -5,7 +5,6 @@
 }
 
 #subtitle {
-  /* Use Montserrat if available, otherwise fall back to system fonts */
   font-family: 'Montserrat', Arial, sans-serif;
   position: fixed;
   bottom: 10%;
@@ -13,7 +12,7 @@
   transform: translateX(-50%);
   background: var(--background-color);
   color: var(--text-color);
-  padding: 15px 30px; /* closer to your original values */
+  padding: 15px 30px; 
   font-size: 22px;
   border-radius: 8px;
   border: 2px solid var(--main-color);
@@ -21,11 +20,9 @@
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: opacity 0.3s ease, transform 0.3s ease;
-  /* Removed backdrop-filter and text-shadow for clarity */
 }
 
 #subtitle:hover {
-  /* More subtle hover effect */
   transform: translateX(-50%) translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
